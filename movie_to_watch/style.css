@@ -1,0 +1,85 @@
+body{
+    background-image: url('movie__img.jpg');
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+   
+}
+
+.ourStyleConatiner{
+    height:100vh;
+    width:100vw;
+    /* background-color: black; */
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* padding: 70px 45px; */
+}
+.ourStoryCard{
+    position:absolute;
+    /* background-color: white; */
+    top:50%;
+    left:50%;
+    /* height:75vh; */
+    width:65vw;
+    transform:translate(-50%,-50%);
+  background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%); 
+}
+.ourStoryTitle{
+    line-height: 0.1;
+    color: white;
+    font-size: 3.125rem;
+        max-width: 640px;
+        margin: 0.5 auto;
+        margin-left: 20vw;
+        
+    
+}
+.title2{
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 600;
+}
+.list{
+    color:white;
+    margin-left: 45px;
+}
+.input_field{
+    padding: 10px 10px 0;
+    width: 50%;
+    margin-left: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: solid 3px #8c8c8c;
+    height:43px;
+}
+#se{
+    height: 43px;
+width: 80px;
+color: white;
+background-color: red;
+padding: 20px 9px 22px 2px;
+}
+#icon{
+    margin-left:5px;
+}
+.movie-list span {
+    
+    color:white;
+}
+.delete{
+    float:right;
+    color: white;
+background-color: #6022ca;
+}
+ul li{
+    list-style-type: none;
+    line-height: 3.1;
+    color:white;
+    /* display:inline; */
+}
+/* .name{
+   
+    line-height: 1.1;
+} */
